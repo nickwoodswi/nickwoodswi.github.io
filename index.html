@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="row">
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div>
+    <div><img src="dad.jpg"></div><div><img src="dad.jpg"></div>
+  </div>
+  <div>
+    <div class="title">WOODS FAMILY SOUNDS</div>
+  </div>
+  <div class="container">
+    <div class="center">
+      <button id="alcohol" onClick="play_sound(this.id)">alcohol</button>
+      <button id="andrea" onClick="play_sound(this.id)">andrea</button>
+      <button id="christmas" onClick="play_sound(this.id)">christmas</button>
+      <button id="dan" onClick="play_sound(this.id)">dan</button>
+      <button id="dinky" onClick="play_sound(this.id)">dinky</button>
+      <button id="dope" onClick="play_sound(this.id)">dope</button>
+      <button id="dottie" onClick="play_sound(this.id)">dottie</button>
+      <button id="kate" onClick="play_sound(this.id)">kate</button>
+      <button id="leslie" onClick="play_sound(this.id)">leslie</button>
+      <button id="max" onClick="play_sound(this.id)">max</button>
+      <button id="nick" onClick="play_sound(this.id)">nick</button>
+      <button id="peepee" onClick="play_sound(this.id)">peepee</button>
+      <button id="peter" onClick="play_sound(this.id)">peter</button>
+      <button id="poopy" onClick="play_sound(this.id)">poopy</button>
+      <button id="sarah" onClick="play_sound(this.id)">sarah</button>
+      <button id="susan" onClick="play_sound(this.id)">susan</button>
+      <button id="wooder" onClick="play_sound(this.id)">wooder</button>
+      <button id="yknow" onClick="play_sound(this.id)">yknow</button>
+      <button id="huh" onClick="play_sound(this.id)">huh</button>
+      <button id="what" onClick="play_sound(this.id)">what</button>
+      <button id="oh" onClick="play_sound(this.id)">oh</button>
+    </div>
+  </div>
+  <script>
+    function play_sound(clicked_id) {
+      var audio = new Audio(clicked_id + ".m4a");
+      audio.play();
+    }
+  </script>
+</body>
+
+</html>
